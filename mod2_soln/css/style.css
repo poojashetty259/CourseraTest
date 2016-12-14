@@ -1,1 +1,100 @@
+*{
 
+	box-sizing: border-box;
+}
+
+body
+{
+	font-family: helvetica;
+}
+
+
+h1
+{
+	text-align: center;
+}
+
+section
+{
+	border:  solid black;
+	background-color: lightgrey;
+	overflow-y: auto;
+}
+
+.container
+{	
+	padding: 10px;
+}
+
+p
+{	
+	height: 140px;	
+	margin: 10px;
+	margin-top: 40px;	
+}
+
+.title
+{
+	position: relative;
+	top: -2px;
+	right: -2px;
+	float: right;	
+	font-size: 20px;
+	width: 100px;
+	text-align: center;
+	border: solid black;
+}
+
+.math
+{	
+	background-color: #f44274;
+}
+
+.science
+{
+	background-color: red;
+	color: white;
+}
+
+.english
+{
+	background-color: #f4cb42;
+}
+
+div
+{
+	float: left;
+}
+
+@media(min-width: 992px)
+{	
+	.col-lg1{width:8.33%;}
+	.col-lg2{width: 16.66%;}
+	.col-lg3{width: 25%;}
+	.col-lg4{width: 33.33%;}
+	.col-lg5{width: 41.66%;}
+	.col-lg6{width: 50%;}
+	.col-lg7{width: 58.33%;}
+	.col-lg8{width: 66.66%;}
+	.col-lg9{width: 75%;}
+	.col-lg10{width: 83.33%;}
+	.col-lg11{width: 91.66%;}
+	.col-lg12{width: 100%;}
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	
+	.col-mg1{width:8.33%;}
+	.col-mg2{width: 16.66%;}
+	.col-mg3{width: 25%;}
+	.col-mg4{width: 33.33%;}
+	.col-mg5{width: 41.66%;}
+	.col-mg6{width: 50%;}
+	.col-mg7{width: 58.33%;}
+	.col-mg8{width: 66.66%;}
+	.col-mg9{width: 75%;}
+	.col-mg10{width: 83.33%;}
+	.col-mg11{width: 91.66%;}
+	.col-mg12{width: 100%;}
+}
